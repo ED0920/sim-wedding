@@ -6,6 +6,7 @@ const navStyle = {
   justifyContent: "space-evenly",
   alignItems: "flex-start",
   flexDirection: "row",
+  paddingTop: "5%",
 };
 
 const Nav = () => {

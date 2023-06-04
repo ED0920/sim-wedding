@@ -8,13 +8,14 @@ const display = {
   backgroundImage: 'url("../assets/example.jpeg")',
   background: "#FFFBFA",
   color: "#B2648B",
-  padding: "5%",
 };
 const name = {
-  // marginTop: "30%",
-  marginBottom: "0%",
   fontFamily: "Snell Roundhand",
   fontSize: "calc(100px + 2vmin)",
+  position: "absolute",
+  bottom: "0",
+  left: "25%",
+  right: "25%",
 };
 function Landing() {
   return (
